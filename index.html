@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+   <title>NIKE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<body>
+    <div id="producto">
+        <div class="encabezado">
+            <div class="imagen" onclick="goBack()">
+                <img src="assets/flecha-atras.png" alt="Descripción de la imagen">
+            </div>
+            <div class="nombre-producto ">
+                <h3>Air Max 200 SE</h3>
+            </div>
+            <div class="carrito">
+                <img src="assets/carrito.png" alt="Descripción de la imagen">
+                <div class="notificacion">
+                    <span>2</span>
+                </div>
+            </div>
+        </div>
+        <div class="tallas-container">
+            <label for="tallas" class="tallas-label">Size</label>
+            <ol id="tallas" class="tallas-list">
+                <li class="tallas-item">UK 6</li>
+                <li class="tallas-item">UK 7</li>
+                <li class="tallas-item">UK 8</li>
+                <li class="tallas-item">UK 9</li>
+            </ol>
+        </div>
+        <div class="favoritos">
+            <button class="favorito-icon-button">
+                <img src="assets/Vectorfavoritos.png" alt="Botón con imagen">
+            </button>
+        </div>
+        <div class="precio">
+            <p class="precio-texto">$30.99</p>
+            <p class="descuento-texto">-10% <span>OFF</span></p>
+        </div>
+        <div id="caja">
+            <div id="nombre">NIKE</div>
+            <div id="zapatos">
+                <img src="assets/Red Shoe.png" alt="">
+            </div>
+            <div class="swipe-container">
+                <p class="swipe-text">Swipe down to add</p>
+                <div class="add-product-container">
+                    <button class="add-product-button">
+                        <div class="product-image-container">
+                            <img src="assets/Vectorcomprar.png" alt="Producto" />
+                        </div>
+                        <div class="arrow-images-container">
+                            <img src="assets/Flechita 1.png" alt="Flechita 1" />
+                            <img src="assets/Flechita 2.png" alt="Flechita 2" />
+                            <img src="assets/Flechita 3.png" alt="Flechita 3" />
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
